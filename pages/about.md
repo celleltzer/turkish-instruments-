@@ -8,11 +8,15 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
+{% include feature/jumbotron.html objectid="art-of-makams" %}
 
-## About CollectionBuilder-Sheets
+## About the Turkish Instruments Collection
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+This website hosts a collection of instruments used in Turkish music. While all of the instruments on this website are available elsewhere online, this project aims to provide a consolidated selection of instruments... something that would make for a good, curated introduction for those wishing to learn more about Turkish music history. 
+
+Some Turkish instruments are also designed around specific makams (similar to keys or modes). For example, the Ney is a flute which is carved for a specific tuning. A Ney player might have a collection of 10+ Neys, each capable of playing different makams. Because makams are influential in the design of Turkish instruments, we found it valuable to include some light resources surrounding the system and including popular makams. This additional information provides a context for each instruments existence, and helps viewers better understand the music which these instruments were created for. 
+
+Our collection of Turkish instruments and makams is hosted using a GitHub repository with GitHub Pages initialized. Data is stored in Google's cloud space and pulled using Google Drive's API options for CSV. The website is then built using Collection Builder, an open-source tool for building collection websites like this one. Each instrument or makam is an individual entry with a zoom-able image, a description, and further metadata such as time period, region, instrument type, etc... The images and information for instruments were taken from various sources, although a primary source has been Organology, a broad website which aims to catalogue all instruments. 
 
 Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
 This enables active collaboration to prototype collections with minimal set up.
