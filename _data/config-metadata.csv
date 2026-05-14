@@ -4,10 +4,14 @@ creator,Creator,
 date,Date Created,
 description,Description,
 subject,Subjects,true
+inst_type,Instrument Type,true,
 material,Material,true,,
+sound_source,Sound Source,true,,
+action,Action,true,,
 location,Location
 latitude,Latitude
 longitude,Longitude
+rights,Rights,true,,
 source,Source
 identifier,Source Identifier,,
 type,Type,
