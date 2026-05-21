@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link
 title,Title,
 creator,Creator,
-date,Date_Created,
+date,Date,
 description,Description,
 subject,Subjects,true
 inst_type,Instrument Type,true,
