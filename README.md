@@ -1,34 +1,10 @@
-# CollectionBuilder-Sheets
+#Turkish Instruments and Makams
+##a CollectionBuilder Website
 
-CollectionBuilder-Sheets is a template for creating simple digital exhibit websites by loading collection metadata directly from a CSV (such as a published Google Sheet!). 
-This enables live collaboration to prototype collections with minimal set up.
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server (*or built automatically and hosted for free on GitHub Pages!*).
+This website hosts a collection of instruments used in Turkish music. While all of the instruments on this website are available elsewhere online, this project aims to provide a consolidated selection of instruments... something that would make for a good, curated introduction for those wishing to learn more about Turkish music history. 
 
-Visit the [CB-Sheets demo site](https://collectionbuilder.github.io/collectionbuilder-sheets/) to see it in action and even test your own metadata!
+Some Turkish instruments are also designed around specific makams (similar to keys or modes). For example, the Ney is a flute which is carved for a specific tuning. A Ney player might have a collection of 10+ Neys, each capable of playing different makams. Because makams are influential in the design of Turkish instruments, we found it valuable to include some light resources surrounding the system and including popular makams. This additional information provides a context for each instruments existence, and helps viewers better understand the music which these instruments were created for. 
 
-To learn more check [docs/sheets-metadata.md](docs/sheets-metadata.md) or visit the [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) for step-by-step details for getting started and building collections.
+Our collection of Turkish instruments and makams is hosted using a GitHub repository with GitHub Pages initialized. Data is stored in Google's cloud space and pulled using Google Drive's API options for CSV. The website is then built using Collection Builder, an open-source tool for building collection websites like this one. Each instrument or makam is an individual entry with a zoom-able image, a description, and further metadata such as time period, region, instrument type, etc... The images and information for instruments were taken from various sources, although a primary source has been Organology, a broad website which aims to catalogue all instruments. 
 
-Note that CB-Sheets is based on and mostly compatible with [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh), but handles the metadata parsing in a fundamentally different way. 
-
-----------
-
-## CollectionBuilder 
-
-<https://collectionbuilder.github.io/>
-
-CollectionBuilder is a project of University of Idaho Library's [Digital Initiatives](https://www.lib.uidaho.edu/digital/) and the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu) (CDIL) following the [Lib-Static](https://lib-static.github.io/) methodology. 
-Powered by the open source static site generator [Jekyll](https://jekyllrb.com/) and a modern static web stack, it puts collection metadata to work building beautiful sites.
-
-The basic theme is created using [Bootstrap](https://getbootstrap.com/).
-Metadata visualizations are built using open source libraries such as [DataTables](https://datatables.net/), [Leafletjs](http://leafletjs.com/), [Spotlight gallery](https://github.com/nextapps-de/spotlight), [lazysizes](https://github.com/aFarkas/lazysizes), and [Lunr.js](https://lunrjs.com/).
-Object metadata is exposed using [Schema.org](http://schema.org) and [Open Graph protocol](http://ogp.me/) standards.
-
-Questions can be directed to **collectionbuilder.team@gmail.com**
-
-## License
-
-CollectionBuilder documentation and general web content is licensed [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
-This license does *NOT* include any objects or images used in digital collections, which may have individually applied licenses described by a "rights" field.
-CollectionBuilder code is licensed [MIT](https://github.com/CollectionBuilder/collectionbuilder-gh/blob/main/LICENSE). 
-This license does not include external dependencies included in the `assets/lib` directory, which are covered by their individual licenses.
+[our website](https://celleltzer.github.io/turkish-instruments-/item.html?id=ahenk)
