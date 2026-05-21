@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link
 title,Title,
 creator,Creator,
-date,Date Created,
+date,Date_Created,
 description,Description,
 subject,Subjects,true
 inst_type,Instrument Type,true,
@@ -13,8 +13,8 @@ latitude,Latitude
 longitude,Longitude
 rights,Rights,true,,
 source,Source
-identifier,Source Identifier,,
+identifier,Source_Identifier,,
 type,Type,
 format,Format,
 rights,Rights,
-rightsstatement,Rights Statement,,true
+rightsstatement,Rights_Statement,,true
