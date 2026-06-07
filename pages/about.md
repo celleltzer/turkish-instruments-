@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="turkish-instruments" %}
+{% include feature/jumbotron.html objectid="ud" %}
 
 ## About the Turkish Instruments Collection
 
