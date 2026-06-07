@@ -5,7 +5,7 @@ permalink: /dmp.html
 ---
 
 
-# Data Managment Plan
+# Data Management Plan
 
 # Section 1: Project Overview
 
@@ -77,7 +77,7 @@ During project development, data starts in Serene’s Google Drive, which hosts 
 
 The public can look at our GitHub repository but cannot directly edit it. Because GitHub only allows the person who made the repository to access its settings, only one of us can change settings. GitHub repositories may also be duplicated, allowing third parties to interpret the collection. Third parties do not have access to the entirety of the Google Drive directory this project sources data from. 
 
-## After term
+## After the project
 
 Once the term is over, the data will enter an un-maintained / un-disturbed state. While the project contributors do not plan to continue maintenance of the website, all of the data and functionality of the website will not be actively deprecated. Because the website relies on various highly popular dependencies and frameworks it is likely that in this state the website will remain functional for the foreseeable future. If accessibility is impacted, each dependency is large enough to garner community preservation efforts which could bring the website back to functionality. In addition, the community has the resources to directly access and clone the repository, if there is ever interest in preserving the website in the long-term. 
 
@@ -85,13 +85,11 @@ Once the term is over, the data will enter an un-maintained / un-disturbed state
 
 In our current implementation of the website, there are no functional restrictions to access, reuse, or rights. The website is publicly accessible, its repository is open-source, but rights are a bit more murky. Images in this website are not guaranteed to be free of copyright from their original providers, which may impact official viable interpretation rights for the website. 
 
-## Your license
-
-What license have you chosen for *your* created content (metadata, written descriptions, site)? Explain what that license allows others to do.
+## Our license
 
 We chose the MIT license because we are using a template that used this license and figured it also fit what we were looking for in a license, which lets people use it free of charge to anyone and people can copy it and use it freely and modify it without us having any repercussions.
 
-## Rights implications of your sources
+## Rights implications of our sources
 
 For the objects with more restrictive terms we are using the argument of educational fair use since this website is made for educational purposes. Because these objects are copyrighted others who use our collection will need to think and be aware of that for their uses. 
 
